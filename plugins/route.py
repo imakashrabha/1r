@@ -9,8 +9,5 @@ async def root_route_handler(request):
 
 
 
-# Jishu Developer 
+# Akash Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
