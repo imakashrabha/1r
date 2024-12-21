@@ -10,11 +10,11 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>🧑‍💻 Developer :</b> <a href='tg://user?id={OWNER_ID}'>This Person</a><b>",
+            text = f"<b>🧑‍💻 ᴅᴇᴠʟᴏᴘᴇʀ :</b> <a href='tg://user?id={OWNER_ID}'>ᴛʜɪs ᴘᴇʀsᴏɴ</a><b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup([
-                [InlineKeyboardButton("🏡 Home", callback_data = "home"),
-                 InlineKeyboardButton("🔒 Close", callback_data = "close")]
+                [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data = "home"),
+                 InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")]
             ])
         )    
 
@@ -29,8 +29,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             ),
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup([
-                [InlineKeyboardButton("😊 About Me", callback_data = "about"),
-                 InlineKeyboardButton("🔒 Close", callback_data = "close")]
+                [InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data = "about"),
+                 InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")]
             ])
         )  
 
@@ -44,6 +44,5 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 
 
 
+# Akash Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @AxomBotz
-# Developer @imakashrabha
