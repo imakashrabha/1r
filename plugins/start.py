@@ -9,8 +9,8 @@ from helper_func import subscribed, encode, decode, get_messages
 from database.database import add_user, del_user, full_userbase, present_user
 
 madflixofficials = FILE_AUTO_DELETE
-akashdeveloper = AxomBotz
-file_auto_delete = humanize.naturaldelta(Akashdeveloper)
+jishudeveloper = madflixofficials
+file_auto_delete = humanize.naturaldelta(jishudeveloper)
 
 
 
@@ -99,8 +99,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")
+                    InlineKeyboardButton("😊 About Me", callback_data = "about"),
+                    InlineKeyboardButton("🔒 Close", callback_data = "close")
                 ]
             ]
         )
