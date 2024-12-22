@@ -9,8 +9,8 @@ from helper_func import subscribed, encode, decode, get_messages
 from database.database import add_user, del_user, full_userbase, present_user
 
 madflixofficials = FILE_AUTO_DELETE
-jishudeveloper = madflixofficials
-file_auto_delete = humanize.naturaldelta(jishudeveloper)
+akashdeveloper = AxomBotz
+file_auto_delete = humanize.naturaldelta(Akashdeveloper)
 
 
 
@@ -89,7 +89,7 @@ async def start_command(client: Client, message: Message):
                 pass
 
 
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>â—ï¸ <u>IMPORTANT</u> â—ï¸\n\nThis Media Will Be Deleted In {file_auto_delete} (Due To Copyright Issues).\n\nðŸ“Œ Please Forward This Media To Somewhere Else And Start Downloading There.</b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b>❗️ <u>IMPORTANT</u> ❗️</b>\n\nThis Media Will Be Deleted In {file_auto_delete} (Due To Copyright Issues).\n\n📌 Please Forward This Media To Somewhere Else And Start Downloading There.")
 
         # Schedule the file deletion
         asyncio.create_task(delete_files(madflix_msgs, client, k))
@@ -99,8 +99,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("á´€Ê™á´á´œá´›", callback_data = "about"),
-                    InlineKeyboardButton("á´„ÊŸá´sá´‡", callback_data = "close")
+                    InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data = "about"),
+                    InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")
                 ]
             ]
         )
@@ -128,14 +128,14 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(text="á´Šá´ÉªÉ´ Ê™á´€á´„á´‹á´œá´˜ á´„Êœá´€É´É´á´‡ÊŸ", url=client.invitelink)                  
+            InlineKeyboardButton(text="Join Channel", url=client.invitelink)
         ]
     ]
     try:
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = 'á´›Ê€Ê á´€É¢á´€ÉªÉ´',
+                    text = 'Try Again',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
@@ -227,6 +227,12 @@ async def delete_files(messages, client, k):
             await client.delete_messages(chat_id=msg.chat.id, message_ids=[msg.id])
         except Exception as e:
             print(f"The attempt to delete the media {msg.id} was unsuccessful: {e}")
-    # await client.send_message(messages[0].chat.id, "Your Video / File Is Successfully Deleted âœ…")
-    await k.edit_text("<b> Êá´á´œÊ€ á´á´‡á´…Éªá´€ á´…á´‡ÊŸá´‡á´›á´‡á´… sá´œá´„á´„á´‡ssÒ“á´œÊŸÊŸÊ.  </b>")
+    # await client.send_message(messages[0].chat.id, "Your Video / File Is Successfully Deleted ✅")
+    await k.edit_text("Your Media Is Successfully Deleted ✅")
     
+
+
+
+
+# Akash Developer 
+# Don't Remove Credit 🥺
