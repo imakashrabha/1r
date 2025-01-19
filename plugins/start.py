@@ -128,7 +128,13 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(text="Join Channel", url=client.invitelink)
+            InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ 𝟷 🦊", url="https://t.me/PUSHPA_2_THE_RULE_10000"),
+            InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ 𝟸 🐭", url="https://t.me/video_sellert"),
+        ],
+        [
+            InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ 𝟹 🐰", url="https://t.me/Red_One_200"),
+            InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ 𝟺 🐼", url=client.invitelink),
+            
         ]
     ]
     try:
@@ -227,7 +233,7 @@ async def delete_files(messages, client, k):
             await client.delete_messages(chat_id=msg.chat.id, message_ids=[msg.id])
         except Exception as e:
             print(f"The attempt to delete the media {msg.id} was unsuccessful: {e}")
-    # await client.send_message(messages[0].chat.id, "Your Video / File Is Successfully Deleted ✅")
+    # await client.send_message(messages[0].chat.id, "ʏᴏᴜʀ ᴠɪᴅᴇᴏ / ғɪʟᴇ ɪs ᴅᴇʟᴇᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ.")
     await k.edit_text("ʏᴏᴜʀ ᴠɪᴅᴇᴏ / ғɪʟᴇ ɪs ᴅᴇʟᴇᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ.")
     
 
