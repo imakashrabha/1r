@@ -66,8 +66,7 @@ FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
     """<b><blockquote>›› ʜᴇʏ {mention} ×</blockquote> 
     ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ ᴊᴏɪɴ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, ᴊᴏɪɴ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs.
-    </b>"""
-)
+    </b>""")
 
 
 
