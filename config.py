@@ -64,9 +64,9 @@ START_MSG = os.environ.get("START_MESSAGE", "<b>Hᴇʟʟᴏ {mention}\n\nɪ ᴄ�
 #Force sub message 
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    """<b><blockquote>›› ʜᴇʏ {mention} ×</blockquote> 
+    "<b>›› ʜᴇʏ {mention} ×\n
     ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴀᴅʏ ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ ᴊᴏɪɴ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, ᴊᴏɪɴ ɴᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ғɪʟᴇs.
-    </b>""")
+    </b>")
 
 
 
