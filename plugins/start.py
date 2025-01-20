@@ -53,7 +53,7 @@ async def start_command(client: Client, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except:
                 return
-        temp_msg = await message.reply("Please Wait...")
+        temp_msg = await message.reply("𝖯𝗅𝖾𝖺𝗌𝖾 𝖶𝖺𝗂𝗍...")
         try:
             messages = await get_messages(client, ids)
         except:
@@ -128,14 +128,14 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(text="Join Channel", url=client.invitelink)
+            InlineKeyboardButton(text="𝖩𝗈𝗂𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url=client.invitelink)
         ]
     ]
     try:
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = 'Try Again',
+                    text = '𝖳𝗋𝗒 𝖠𝗀𝖺𝗂𝗇',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
