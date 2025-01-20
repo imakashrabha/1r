@@ -1,5 +1,4 @@
 pyrogram==2.0.83
-pyrofork
 TgCrypto
 pyromod
 pymongo
@@ -7,5 +6,3 @@ motor
 dnspython
 aiohttp
 humanize
-
-
