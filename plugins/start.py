@@ -128,11 +128,7 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ 𝟷", url="https://t.me/PUSHPA_2_THE_RULE_10000"),],[
-            InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ 𝟸", url="https://t.me/video_sellert"),],[
-            InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ 𝟹", url="https://t.me/Red_One_200"),],[
-            InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ 𝟺", url=client.invitelink),
-            
+            InlineKeyboardButton(text="Join Channel", url=client.invitelink)
         ]
     ]
     try:
