@@ -1,4 +1,4 @@
-pyrofork==2.3.38
+pyrofork
 TgCrypto
 pyromod
 pymongo
