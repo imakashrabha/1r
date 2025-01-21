@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>🧑‍💻 ᴅᴇᴠʟᴏᴘᴇʀ :</b> <a href='tg://user?id={OWNER_ID}'>ᴀᴋᴀsʜ</a><b>",
+            text = f"<b>𝖠𝖻𝗈𝗎𝗍...\n\n›› 𝖬𝖺𝖽𝖾 𝖿𝗈𝗋 : @ZoroFlix\n›› 𝖮𝗐𝗇𝖾𝖽 𝖻𝗒 : @imOnlyZoro !! \n</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup([
                 [InlineKeyboardButton("ʜᴏᴍᴇ", callback_data = "home"),
