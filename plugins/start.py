@@ -227,8 +227,8 @@ async def delete_files(messages, client, k):
             await client.delete_messages(chat_id=msg.chat.id, message_ids=[msg.id])
         except Exception as e:
             print(f"The attempt to delete the media {msg.id} was unsuccessful: {e}")
-    # await client.send_message(messages[0].chat.id, "ʏᴏᴜʀ ᴠɪᴅᴇᴏ / ғɪʟᴇ ɪs ᴅᴇʟᴇᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ.")
-    await k.edit_text("ʏᴏᴜʀ ᴠɪᴅᴇᴏ / ғɪʟᴇ ɪs ᴅᴇʟᴇᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ.")
+    # await client.send_message(messages[0].chat.id, "") #text
+    await k.edit_text("") #Text
     
 
 
