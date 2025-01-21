@@ -16,11 +16,11 @@ JOIN_REQ_DB = os.environ.get("JOIN_REQ_DB", DB_URL)
 DB_NAME = os.environ.get("DB_NAME", "AxomBotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002397556354"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002334213507"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002277046869"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002400903082"))
 
 
-FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "300")) # auto delete in seconds
+FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "60")) # auto delete in seconds
 
 
 PORT = os.environ.get("PORT", "8080")
