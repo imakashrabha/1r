@@ -212,7 +212,7 @@ async def send_text(client: Bot, message: Message):
         await asyncio.sleep(8)
         await msg.delete()
 
-Function to handle file deletion
+#Function to handle file deletion
 async def delete_files(messages, client, k):
     await asyncio.sleep(FILE_AUTO_DELETE)  # Wait for the duration specified in config.py
     for msg in messages:
