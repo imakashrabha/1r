@@ -87,8 +87,11 @@ async def start_command(client: Client, message: Message):
                 
             except:
                 pass
+           
+        k = await client.send_message(chat_id = message.from_user.id, text=f"𝖳𝗁𝖾 𝗅𝗂𝗇𝗄 𝗐𝗂𝗅𝗅 𝖻𝖾 𝖽𝖾𝗅𝖾𝗍𝖾𝖽 𝗂𝗇 {file_auto_delete}. 𝖩𝗈𝗂𝗇 𝖻𝖾𝖿𝗈𝗋𝖾 𝗂𝗍 𝗀𝖾𝗍𝗌 𝖽𝖾𝗅𝖾𝗍𝖾𝖽.")
 
-
+        # Schedule the file deletion
+        asyncio.create_task(delete_files(madflix_msgs, client, k))
 
         return
     else:
