@@ -101,7 +101,7 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data = "about"),
                     InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")
                 ]
-            ]
+        
         )
         await message.reply_text(
             text = START_MSG.format(
